@@ -1,0 +1,49 @@
+.new-post-button {
+  background-color: #ff7f50;
+  border: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.new-post-modal .ant-modal-content {
+  padding: 30px;
+  border-radius: 10px;
+  background: #fef9f3;
+  border: 2px solid #ff7f50;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.new-post-modal .modal-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.new-post-modal h2 {
+  color: #ff7f50;
+  font-weight: 700;
+}
+
+.new-post-modal .ant-form-item {
+  margin-bottom: 18px;
+}
+
+.new-post-modal .ant-input,
+.new-post-modal .ant-input-textarea {
+  border-radius: 8px;
+  border: 1px solid #ff7f50;
+}
+
+.new-post-modal .submit-button {
+  background-color: #ff7f50;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.new-post-modal .submit-button:hover {
+  background-color: #e66a45;
+}
+
+.new-post-modal .ant-modal-close-x {
+  color: #ff7f50;
+}
