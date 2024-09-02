@@ -25,7 +25,7 @@ const Profile = () => {
     const userInfo = JSON.parse(localStorage.getItem("userInfo"));
     if (userInfo) {
       setUser({
-        avatar: `http://127.0.0.1:8000${userInfo.avi}`,
+        avatar: `https://projectxfoundation${userInfo.avi}`,
         name: userInfo.username,
         email: userInfo.email,
       });
